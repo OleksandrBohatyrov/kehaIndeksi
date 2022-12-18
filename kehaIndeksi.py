@@ -7,7 +7,7 @@ except:
     print("ValueError")
 print(nimi,"oi kui ilus nimi! \n")
 try:
-    indeksi=float(input("! Kas leian Sinu keha indeksi? 0-ei, 1-jah => \n"))
+    indeksi=float(input("!  Kas leian Sinu keha indeksi? 0-ei, 1-jah => \n"))
 except:
     print("Value Error")
 if indeksi==1:
