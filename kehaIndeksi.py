@@ -15,7 +15,7 @@ if indeksi==1:
 try:
     pikkus=float(input("Kirjutage oma pikkus "))
     mass=float(input("Kirjutage oma kaal "))
-    indeks=float(mass/(0.01*pikkus)**2)
+    indeks=round(float(mass/(0.01*pikkus)**2),2)
     print(nimi,'!Sinu keha indeks on:',indeks,round(indeks,1))
     if indeks<16:
         print("Tervisele ohtlik alakaal")
